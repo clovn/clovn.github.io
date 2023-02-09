@@ -16,7 +16,7 @@ function change_input(file){
 
 let tg = window.Telegram.WebApp; //получаем объект webapp телеграма 
 
-WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
+tg.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
 
 tg.expand(); //расширяем на все окно  
 
