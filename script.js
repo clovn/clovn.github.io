@@ -16,6 +16,8 @@ function change_input(file){
 
 let tg = window.Telegram.WebApp; //получаем объект webapp телеграма 
 
+WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
+
 tg.expand(); //расширяем на все окно  
 
 tg.MainButton.text = "Changed Text"; //изменяем текст кнопки 
