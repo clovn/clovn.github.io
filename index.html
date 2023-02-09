@@ -11,13 +11,14 @@
 <body>
    <div id="usercard"> <!--Карта профиля, человека, который к нам обратился-->
    </div>
-   <p>Введите номер машины</p>
+   <p>Введите номер машины:</p>
    <input type="text">
-   <form>
+   <form class="input">
       <div class="input-data">
-         <input type="file" accept="image/png, image/jpeg, image/jpg">
-         <input type="text" size="100">
+         <input type="file" multiple accept="image/png, image/jpeg, image/jpg">
       </div>
+      <p>Комментарий(необязательно):</p>
+      <input type="text" size="20">
    </form>
 </body>
 <script src="script.js" ></script>
