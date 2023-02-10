@@ -20,6 +20,7 @@ tg.showAlert(`Добро пожаловать, @${tg.WebAppUser.username}.`);
 
 tg.expand(); //расширяем на все окно  
 
+tg.MainButton.enable();
 tg.MainButton.text = "Changed Text"; //изменяем текст кнопки 
 tg.MainButton.setText("Changed Text1"); //изменяем текст кнопки иначе
 tg.MainButton.textColor = "#F55353"; //изменяем цвет текста кнопки
